@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plays.css">
+    <title>Admin page</title>
+</head>
+<body>
+    <main>
+        <label>Id:</label>
+        <input type="text" id="id-input">
+        <br> <br>
+
+        <label>Play name:</label>
+        <input type="text" id="name-input">
+        <br> <br>
+
+
+        <label>Venue:</label>
+        <input type="text" id="venue-input">
+        <br> <br>
+
+        <label>Time:</label>
+        <input type="datetime" id="time-input">
+        <br> <br>
+
+        <label>Seats Available:</label>
+        <input type="int" id="seats-input">
+        <br> <br>66
+
+        <label>Cost of each ticket:</label>
+        <input type="int" id="cost-input">
+        <br> <br><br>
+
+       
+
+        <button id="add-name-btn">Add Details</button>
+
+        <br> <br><br>
+
+        <div>
+            <input placeholder="search by name" id="search-input">
+            <button id="search-btn">search</button>
+        </div>
+
+        <table id="table">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Venue</th>
+                <th>Time</th>
+                <th>Seats available</th>
+                <th>Cost of each ticket</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </main>
+    <script src="./admin.js"></script>    
+</body>
+</html>   
